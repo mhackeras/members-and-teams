@@ -10,6 +10,7 @@
     "server": "babel-node server"
   },
   "dependencies": {
+    "@apollo/client": "^3.7.0",
     "@graphql-yoga/node": "^2.13.13",
     "@react-navigation/native": "^6.0.13",
     "@react-navigation/native-stack": "^6.9.1",

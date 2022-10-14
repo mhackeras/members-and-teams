@@ -9,16 +9,16 @@ import {
   Screen,
 } from "components";
 import { useRootRoute } from "src/navigation/hooks";
-import styles from "./TeamScreen.style";
 import { Svgs } from "res";
-import { useTeamInfo } from "./hook";
+import { TeamInfo, useTeamInfo } from "./hook";
+import styles from "./TeamScreen.style";
 
 const ADD_MEMBER_LABEL = "Click to add member";
 
 const TeamScreen = () => {
   const route = useRootRoute();
   const memberName = route.params?.memberName;
-  const teamInfo = useTeamInfo(memberName);
+  const teamInfo: TeamInfo = useTeamInfo(memberName);
 
   const addMemberPress = () => {};
 

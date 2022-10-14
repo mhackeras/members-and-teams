@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, TouchableOpacity, View, ViewStyle } from "react-native";
 import { Member } from "src/helpers/interfaces/member";
-import { ProfileAvatar } from "components";
+import ProfileAvatar from "src/components/ProfileAvatar/ProfileAvatar";
 import { useRootNavigation } from "src/navigation/hooks";
 import styles from "./MemberComponent.style";
 

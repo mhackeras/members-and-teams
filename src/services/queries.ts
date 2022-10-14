@@ -5,6 +5,16 @@ const GET_ALL_MEMBERS = gql`
     allMembers {
       id
       firstName
+      lastName
+      title
+      experience
+      colleagues {
+        id
+        firstName
+        lastName
+        title
+        experience
+      }
     }
   }
 `;

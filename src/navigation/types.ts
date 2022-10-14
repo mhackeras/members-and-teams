@@ -2,7 +2,7 @@ import { NativeStackScreenProps } from "@react-navigation/native-stack";
 
 export type RootStackNavigatorProps = {
   AllMembers: undefined;
-  TeamScreen: undefined;
+  Team: { memberName: string };
 };
 
 export type RootStackScreenProps<T extends keyof RootStackNavigatorProps> =

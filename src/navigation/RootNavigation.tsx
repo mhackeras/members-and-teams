@@ -16,7 +16,7 @@ const RootNavigation = () => {
         }}
       >
         <Stack.Screen name="AllMembers" component={AllMembersScreen} />
-        <Stack.Screen name="TeamScreen" component={TeamScreen} />
+        <Stack.Screen name="Team" component={TeamScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

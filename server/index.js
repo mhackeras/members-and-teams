@@ -20,7 +20,7 @@ const server = createServer({
     resolvers: {
       Query: {
         allMembers: () => {
-          if (Math.random() < 0.2) {
+          if (Math.random() < 0.8) {
             return [];
           }
 
